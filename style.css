@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Pure";
+  src: url(fonts/purista_medium-webfont.woff);
+}
+
+
+body{
+  display: flex;
+  margin: 0;
+}
+
+.first-section{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 62, 125);
+}
+
+.header{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  gap: 200px;
+  font-family: "Pure";
+}
+.header h2{
+  font-size: 38px;
+  color: white;
+}
+
+.top-text h3{
+  font-family: "Pure";
+  display: flex;
+  padding-left:150px;
+  font-size: 25px;
+}
+
+.top-text p{
+  display: flex;
+  font-family: "Pure";
+  padding-bottom: 100px;
+  padding-left: 150px;
+  padding-right:700px ;
+}
+
+.top-text img{
+  width: 100px;
+  height: 100px;
+}
+
+.top-links a{
+  text-decoration: none;
+  color: white;
+  background-color: rgb(0, 62, 125);
+  font-size: 25px;
+  margin: 5px;
+  font-family: "Pure";
+}
+
+.top-text{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.top-mid{
+  display: flex;
+}
