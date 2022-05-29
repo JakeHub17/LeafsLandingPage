@@ -5,7 +5,6 @@
 
 
 body{
-  display: flex;
   margin: 0;
 }
 
@@ -21,33 +20,36 @@ body{
   justify-content: space-around;
   gap: 200px;
   font-family: "Pure";
+  flex-shrink: 0;
 }
 .header h2{
   font-size: 38px;
   color: white;
+  flex-shrink: 0;
 }
 
 .top-text h3{
   font-family: "Pure";
   display: flex;
-  padding-left:150px;
+  padding-left:200px;
   font-size: 30px;
   padding-top: 20px;
+  flex-shrink: 0;
 }
 
 .top-text p{
   display: flex;
   font-family: "Pure";
-  padding-bottom: 100px;
-  padding-left: 150px;
+  padding-left: 200px;
   padding-right:100px ;
   font-size: 20px;
+  flex-shrink: 0;
 }
 
 .top-mid img{
   width: 350px;
   height: 350px;
-  padding-right: 300px;
+  padding-right: 250px;
   padding-top:100px;
 }
 
@@ -70,3 +72,53 @@ body{
 .top-mid{
   display: flex;
 }
+
+.team-text h3,
+.team-text p{
+  display: flex;
+  justify-content: center;
+  font-family: "Pure";
+}
+
+.team-text h3{
+  font-size: 30px;
+  color: rgb(0, 62, 125);
+}
+.team-text p{
+  font-size: 20px;
+  margin-left: 90px;
+  margin-right: 90px;
+  color: rgb(0, 62, 125);
+}
+
+.player-text{
+  font-family: "Pure";
+  max-width: 200px;
+  color:rgb(0, 62, 125); ;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 90px;
+  padding-top:-25px;
+}
+
+.info p{
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  max-width: 100px;
+  font-family: "Pure";
+  color: rgb(0, 62, 125);
+  background-color: rgb(255, 255, 255);
+  margin-left:50px;
+  margin-bottom: 10px;
+  border: solid 3px rgb(0, 62, 125);
+}
+
+.info{
+  text-align: center;
+}
+
